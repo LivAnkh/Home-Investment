@@ -1,0 +1,191 @@
+
+
+/* ==================================header================= */
+main{
+  height: auto;
+  width: auto;
+  /* background-color: red; */
+animation-name: main;
+animation-duration: 4s;
+}
+@keyframes main{
+  /* from {background-color: red;}
+  to {background-color: yellow;} */
+}
+
+.About-us{
+  margin-top: 3rem;
+height: auto;
+width: auto;
+/* background-color: aquamarine; */
+
+display: flex;
+justify-content: center;
+
+}
+.About-us .allb{
+ 
+  width: 1000px;
+  /* background: #000; */
+  
+
+}
+.About-us .Title{
+width: 70px;
+height: 30px;
+/* background: red; */
+margin-left: 40%;
+
+}
+.img-aboutUs{
+  width: 400px;
+  height: 300px;
+  /* background:yellow; */
+  transition: width 2s;
+}
+.img-aboutUs:hover {
+  width: 100%;
+  background-image: url("/Image/world-invest.png");
+  
+  
+}
+.img-aboutUs .ab1{ 
+width: 500px;
+height: 300px;
+border-style: double ;
+border-bottom-left-radius: 40px;
+
+
+}
+.content{
+  width: 70%;
+  /* background: #000; */
+  color: #737373;
+
+}
+.Invest{
+  height: auto;
+
+  width: auto;
+  /* background-color: aquamarine; */
+}
+.Invest .letter{
+  width: 40%;
+  color: #737373;
+  
+}
+.Invest .img{
+position: relative;
+width: 50%;
+
+
+}
+.ab2{
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+.overlay{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+color: aqua;
+/* background-color: bisque; */
+overflow: hidden;
+width: 0;
+height: 100%;
+transition: .5s ease;
+}
+.img:hover .overlay{
+width: 100%;
+animation-name: main;
+animation-duration: 4s;
+border-radius: 4px;
+
+}
+.welcome{
+
+  white-space: nowrap; 
+  color: antiquewhite;
+  font-size: 100px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-image: url("/Image/Money.png") ;
+  background-size: cover;
+ 
+}
+.g1{
+
+  display: flex;
+}
+h2{
+
+font-size: 4rem;
+z-index: 1;
+overflow: hidden;
+
+}
+.text-run h1{
+font-size: 6rem;
+}
+.text-run h1:hover{
+
+background-color:antiquewhite;
+
+}
+
+
+
+@keyframes animate{
+0%{
+
+  left: 110%;
+}
+100%{
+left: 20%;
+
+}
+}
+span{
+color: red;
+
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width :576px) { 
+
+  
+ }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
+
+
+
+
+/* ==========================================>Footer  */
+
+
+
+
+
+
